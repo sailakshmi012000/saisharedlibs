@@ -1,5 +1,5 @@
-def call(cred-id,user,ip){
-    sshagent([cred-id]) {
+def call(credId,user,ip){
+    sshagent([credId]) {
                  // rename
                  sh "mv target/myweb*.war target/app.war"
                  //copy war
