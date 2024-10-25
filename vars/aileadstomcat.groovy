@@ -1,4 +1,4 @@
-def call(credId,user,ip){
+def call(ip,user,credId){
       sshagent([credId]){
                     //rename
                     sh "mv target/ai-leads*.war target/leads.war"
