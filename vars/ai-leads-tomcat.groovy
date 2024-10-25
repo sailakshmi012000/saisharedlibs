@@ -1,5 +1,5 @@
 def call(credId,user,ip){
-      sshagent(['credId']){
+      sshagent([credId]){
                     //rename
                     sh "mv target/ai-leads*.war target/leads.war"
                     //copy war
